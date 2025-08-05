@@ -12,18 +12,17 @@ keywords = ["pytorch", "training", "llm"]
 dependencies = [
     # Stateful Dataloader
     "torchdata>=0.8.0",
-
     # Hugging Face integrations
     "datasets>=2.21.0",
-
+    "huggingface_hub",
     # Tokenization
     "tokenizers",
-
     # Miscellaneous
     "tomli>=1.1.0",
     "fsspec",
     "tyro",
     "tensorboard",
+    "torch",
 ]
 dynamic = ["version"]
 

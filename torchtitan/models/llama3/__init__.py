@@ -69,7 +69,6 @@ llama3_configs = {
     ),
 }
 
-
 register_train_spec(
     TrainSpec(
         name="llama3",
